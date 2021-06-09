@@ -1,0 +1,29 @@
+.footer {
+    background: #303030;
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+
+        .btn {
+            border: 2px solid $primary-col;
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                margin-right: 15px;
+                list-style: none;
+
+                h2 {
+                    color: $primary-col;
+                }
+            }
+        }
+    }
+}
